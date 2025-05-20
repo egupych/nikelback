@@ -518,8 +518,8 @@ details[open] summary::before {
   position: absolute;
   bottom: 1rem;
   left: 1rem;
-  padding: 0.5rem 0.75rem;
-  background: rgba(0, 0, 0, 0.5);
+  padding: 1rem 1rem;
+  background: var(--dark-color);
   color: #fff;
   font-size: 1rem;
   border-radius: 0.25rem;
@@ -529,7 +529,7 @@ details[open] summary::before {
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
-  background: #264071;
+  background: var(--dark-color);
   color: #fff;
   border: none;
   padding: 0.75rem 1rem;
@@ -576,10 +576,10 @@ details[open] summary::before {
 
 }
 .galeriaHist-cronograma-item.active {
-  color: #264071;
+  color: var(--dark-color);
 }
 .galeriaHist-cronograma-item.active::after {
-  background: #264071;
+  background: var(--dark-color);
 }
 
 
